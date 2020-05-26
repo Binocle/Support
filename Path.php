@@ -26,6 +26,8 @@ class Path
 		$path = '.php' != substr($path, -4) ? $path . '.php' : $path;
 		$path = '/' == substr($path, 0, 1) ? substr($path, 1) : $path;
 
+		$path = 'theme/' . $path;
+
 		if ($overload) {
 			return locate_template($path);
 		} else {
