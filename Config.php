@@ -2,6 +2,10 @@
 
 namespace Binocle\Support;
 
+/**
+ * Class Config
+ * @package Binocle\Support
+ */
 class Config
 {
 	/**
